@@ -1,0 +1,39 @@
+# DDP LAB-2 heryyyyyyyyyyyyyyyyyyyyy
+
+
+
+# SOAL 1 - Mencetak bilangan
+# Tuliskan program untuk Soal 1 di bawah ini
+print("Soal 1 - mencetak bilangan bulat..")
+print("Selamat datang..Assalamualikum ")
+for i in range(100,1,-2):
+  print(i ,end=' ,')
+print("\n")
+
+
+
+
+# SOAL 2 - Menghitung rata-rata
+# Tuliskan program untuk Soal 2 di bawah ini
+print("Soal 2 - menghitung rata-rata..")
+jumlah = 0
+banyak = int(input("Masukkan banyaknya angka: "))
+for i in range(jumlah, banyak):
+    c = eval(input("Masukkan angka: "))
+    jumlah += c
+print("Rata-ratanye ialah : ", jumlah / banyak)
+print('\n')
+
+
+
+
+# SOAL 3 - Mencetak persegi
+# Tuliskan program untuk Soal 3 di bawah ini
+print("Soal 3 - mencetak persegi..")
+Angka = eval(input("Masukan angka : "))
+
+for i in range(Angka):
+  print("W  "*Angka)
+
+
+
